@@ -41,7 +41,7 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 ### ESC50
 | <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
 | :--- | :--- | :--- | :--- | :--- |
-| <sub>**Masked Autoencoders that Listen**</sub> | <sub>extension of image-based Masked Autoencoders (MAE) to self-supervised representation learning from audio spectrograms</sub> | <sub>97.4%</sub> | <sub>[huang2022](https://arxiv.org/pdf/2207.06405.pdf)</sub> | <a href="https://github.com/facebookresearch/AudioMAE">:scroll:</a> |
+| <sub>**Masked Autoencoders that Listen**</sub> | <sub>Image-based MAE for audio spectrograms</sub> | <sub>97.4%</sub> | <sub>[huang2022](https://arxiv.org/pdf/2207.06405.pdf)</sub> | <a href="https://github.com/facebookresearch/AudioMAE">:scroll:</a> |
 | <sub>**HTS-AT: A Hierarchical Token-Semantic Audio Transformer for Sound Classification and Detection**</sub> | <sub>Transformer model with hierarchical structure and token-semantic modules</sub> | <sub>97.00%</sub> | <sub>[chen2022](https://arxiv.org/pdf/2202.00874.pdf)</sub> | <a href="https://github.com/RetroCirce/HTS-Audio-Transformer">:scroll:</a>   |
 | <sub>**PaSST: Efficient Training of Audio Transformers with Patchout**</sub> | <sub>drops out some of the input patches during training of AST</sub> | <sub>96.8%</sub> | <sub>[koutini22](https://arxiv.org/pdf/2110.05069.pdf)</sub> | <a href="https://github.com/kkoutini/PaSST">:scroll:</a> |
 | <sub>**CLAP: Learning Audio Concepts From Natural Language Supervision**</sub> | <sub>CNN model pretrained by natural language supervision</sub> | <sub>96.70%</sub> | <sub>[elizalde2022](https://arxiv.org/pdf/2206.04769.pdf)</sub> | <a href="https://github.com/microsoft/CLAP">:scroll:</a> |
