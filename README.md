@@ -9,13 +9,13 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 
 ## Table of Contents
 
-* [Sound Event Detection](#sound-event-detection)
+* [Sound Event Classification](#sound-event-classification)
 * [Acoustic Scene Classification](#acoustic-scene-classification)
 * [Audio Captioning](#audio-captioning)
 * [Text to Audio Retrieval](#text-to-audio-retrieval)
 * [Audio to Text Retrieval](#audio-to-text-retrieval)
 
-## Sound Event Detection
+## Sound Event Classification
 
 ### AudioSet
 | <sub>Title</sub> | <sub>Notes</sub> | <sub>mAP</sub> | <sub>Paper</sub> | <sub>Code</sub> |
