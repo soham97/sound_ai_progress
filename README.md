@@ -115,7 +115,7 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 | <sub>**CLAP: Learning Audio Concepts From Natural Language Supervision**</sub> | <sub>CNN model pretrained by natural language supervision</sub> | <sub>97.95%</sub> | <sub>[elizalde2022](https://arxiv.org/pdf/2206.04769.pdf)</sub> | <a href="https://github.com/microsoft/CLAP">:scroll:</a> |
 | <sub>**Vocalsound: A Dataset for Improving Human Vocal Sounds Recognition**</sub> | <sub>EfficientNetB0</sub> | <sub> 90.5% </sub> | <sub>[gong2022](https://arxiv.org/pdf/2205.03433.pdf)</sub> | <a href="https://github.com/YuanGongND/vocalsound">:scroll:</a> |
 
-## VGGSound
+### VGGSound
 | <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
 | :--- | :--- | :--- | :--- | :--- |
 | <sub>**Slow-Fast Auditory Streams For Audio Recognition**</sub> | <sub>two-stream convolutional network for audio recognition</sub> | <sub> 0.544 </sub> | <sub>[kazakos2022](https://arxiv.org/pdf/2103.03516.pdf)</sub> | <a href="https://github.com/ekazakos/auditory-slow-fast">:scroll:</a> |
