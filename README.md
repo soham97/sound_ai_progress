@@ -14,6 +14,7 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 * [Audio Captioning](#audio-captioning)
 * [Text to Audio Retrieval](#text-to-audio-retrieval)
 * [Audio to Text Retrieval](#audio-to-text-retrieval)
+* [Music Classification](#music-classification)
 
 ## Sound Event Classification
 
@@ -115,11 +116,11 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 | <sub>**CLAP: Learning Audio Concepts From Natural Language Supervision**</sub> | <sub>CNN model pretrained by natural language supervision</sub> | <sub>97.95%</sub> | <sub>[elizalde2022](https://arxiv.org/pdf/2206.04769.pdf)</sub> | <a href="https://github.com/microsoft/CLAP">:scroll:</a> |
 | <sub>**Vocalsound: A Dataset for Improving Human Vocal Sounds Recognition**</sub> | <sub>EfficientNetB0</sub> | <sub> 90.5% </sub> | <sub>[gong2022](https://arxiv.org/pdf/2205.03433.pdf)</sub> | <a href="https://github.com/YuanGongND/vocalsound">:scroll:</a> |
 
-### VGGSound
+## VGGSound
 | <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
 | :--- | :--- | :--- | :--- | :--- |
-| <sub>**Slow-Fast Auditory Streams For Audio Recognition**</sub> | <sub>two-stream convolutional network for audio recognition</sub> | <sub> 0.544 </sub> | <sub>[kazakos2022](https://arxiv.org/pdf/2103.03516.pdf)</sub> | <a href="https://github.com/ekazakos/auditory-slow-fast">:scroll:</a> |
-| <sub>**Wav2CLIP: Learning Robust Audio Representations From CLIP**</sub> | <sub>Distilling from CLIP</sub> | <sub>0.4663</sub> | <sub>[wu2021](https://arxiv.org/pdf/2110.11499.pdf)</sub> | <a href="https://github.com/descriptinc/lyrebird-wav2clip">:scroll:</a> |
+| <sub>**Slow-Fast Auditory Streams For Audio Recognition**</sub> | <sub>two-stream convolutional network for audio recognition</sub> | <sub> 54.4% </sub> | <sub>[kazakos2022](https://arxiv.org/pdf/2103.03516.pdf)</sub> | <a href="https://github.com/ekazakos/auditory-slow-fast">:scroll:</a> |
+| <sub>**Wav2CLIP: Learning Robust Audio Representations From CLIP**</sub> | <sub>Distilling from CLIP</sub> | <sub>46.63%</sub> | <sub>[wu2021](https://arxiv.org/pdf/2110.11499.pdf)</sub> | <a href="https://github.com/descriptinc/lyrebird-wav2clip">:scroll:</a> |
 
 
 ## Acoustic Scene Classification
@@ -127,12 +128,14 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 ## Audio Captioning
 
 ### AudioCaps
-| <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
+| <sub>Title</sub> | <sub>Notes</sub> | <sub>SPIDEr</sub> | <sub>Paper</sub> | <sub>Code</sub> |
 | :--- | :--- | :--- | :--- | :--- |
+| <sub>**Audio Captioning Transformer**</sub> | <sub>Transformer network based on an encoder-decoder architecture</sub> | <sub> 0.426 </sub> | <sub>[mei2021](https://arxiv.org/pdf/2107.09817.pdf)</sub> | <a href="https://github.com/XinhaoMei/ACT">:scroll:</a> |
 
 ### Clotho
-| <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
+| <sub>Title</sub> | <sub>Notes</sub> | <sub>SPIDEr</sub> | <sub>Paper</sub> | <sub>Code</sub> |
 | :--- | :--- | :--- | :--- | :--- |
+| <sub>**WaveTransformer: A Novel Architecture for Audio Captioning Based on Learning Temporal and Time-Frequency Information**</sub> | <sub>two-branch audio encoder for learning temporal and local time-frequency information</sub> | <sub> 0.182 </sub> | <sub>[tran2020](https://arxiv.org/pdf/2010.11098.pdf)</sub> | <a href="https://github.com/an-tran528/wavetransformer">:scroll:</a> |
 
 ## Text to Audio Retrieval
 
@@ -150,7 +153,7 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 | <sub>**Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation**</sub> | <sub>CLAP trained on LAION 650k collection with feature fusion and caption augmentation </sub> | | <sub> 18.2 </sub> | <sub>[wu2022](https://arxiv.org/pdf/2211.06687.pdf)</sub> | <a href=" https://github.com/LAION-AI/CLAP">:scroll:</a> |
 | <sub>**Audio Retrieval with WavText5K and CLAP Training**</sub> | <sub>CLAP training with WavText5K added</sub> | <sub> 27.12 </sub> | <sub>  16.75 </sub> | <sub>[deshmukh2022](https://arxiv.org/pdf/2209.14275.pdf)</sub> | <a href=" https://github.com/microsoft/WavText5K">:scroll:</a> |
 | <sub>**On metric learning for audio-text cross-modal retrieval**</sub> | <sub>Metric learning objectives for audio retrieval</sub> |  | <sub> 14.4 </sub> |<sub>[mei2022](https://arxiv.org/pdf/2203.15537.pdf)</sub> | <a href=" https://github.com/XinhaoMei/audio-text_retrieval">:scroll:</a> |
-| <sub>**Audio Retrieval with Natural Language Queries: A Benchmark Study**</sub> | <sub>MoE, CE and MMT used</sub> |  | <sub> 6.7 </sub> |<sub>[koepke2022](https://arxiv.org/pdf/2203.15537.pdf)</sub> | <a href=" https://github.com/akoepke/audio-retrieval-benchmark">:scroll:</a> |
+| <sub>**Audio Retrieval with Natural Language Queries: A Benchmark Study**</sub> | <sub>MoE, CE and MMT used</sub> |  | <sub> 6.7 </sub> |<sub>[koepke2022](https://arxiv.org/pdf/2112.09418.pdf)</sub> | <a href=" https://github.com/akoepke/audio-retrieval-benchmark">:scroll:</a> |
 
 
 ## Audio to Text Retrieval
@@ -161,7 +164,7 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 | <sub>**Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation**</sub> | <sub>CLAP trained on LAION 650k collection with feature fusion and caption augmentation </sub> | | <sub> 46.8 </sub> | <sub>[wu2022](https://arxiv.org/pdf/2211.06687.pdf)</sub> | <a href=" https://github.com/LAION-AI/CLAP">:scroll:</a> |
 | <sub>**Audio Retrieval with WavText5K and CLAP Training**</sub> | <sub>CLAP training with WavText5K added</sub> | <sub> 30.81 </sub> | <sub>  41.91 </sub> |<sub>[deshmukh2022](https://arxiv.org/pdf/2209.14275.pdf)</sub> | <a href=" https://github.com/microsoft/WavText5K">:scroll:</a> |
 | <sub>**On metric learning for audio-text cross-modal retrieval**</sub> | <sub>Metric learning objectives for audio retrieval</sub> |  | <sub> 39.6 </sub> |<sub>[mei2022](https://arxiv.org/pdf/2203.15537.pdf)</sub> | <a href=" https://github.com/XinhaoMei/audio-text_retrieval">:scroll:</a> |
-| <sub>**Audio Retrieval with Natural Language Queries: A Benchmark Study**</sub> | <sub>MoE, CE and MMT used</sub> |  | <sub> 39.6 </sub> |<sub>[koepke2022](https://arxiv.org/pdf/2203.15537.pdf)</sub> | <a href=" https://github.com/akoepke/audio-retrieval-benchmark">:scroll:</a> |
+| <sub>**Audio Retrieval with Natural Language Queries: A Benchmark Study**</sub> | <sub>MoE, CE and MMT used</sub> |  | <sub> 39.6 </sub> |<sub>[koepke2022](https://arxiv.org/pdf/2112.09418.pdf)</sub> | <a href=" https://github.com/akoepke/audio-retrieval-benchmark">:scroll:</a> |
 
 ### Clotho
 | <sub>Title</sub> | <sub>Notes</sub> | <sub>mAP@10</sub> | <sub>R@1</sub>| <sub>Paper</sub> | <sub>Code</sub> |
@@ -169,7 +172,26 @@ Sound AI or Audio Analytics focuses on analyzing and understanding audio signals
 | <sub>**Large-scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation**</sub> | <sub>CLAP trained on LAION 650k collection with feature fusion and caption augmentation </sub> | | <sub> 25.7 </sub> | <sub>[wu2022](https://arxiv.org/pdf/2211.06687.pdf)</sub> | <a href=" https://github.com/LAION-AI/CLAP">:scroll:</a> |
 | <sub>**Audio Retrieval with WavText5K and CLAP Training**</sub> | <sub>CLAP training with WavText5K added</sub> | <sub> 13.65 </sub> | <sub> 20.00 </sub> |<sub>[deshmukh2022](https://arxiv.org/pdf/2209.14275.pdf)</sub> | <a href=" https://github.com/microsoft/WavText5K">:scroll:</a> |
 | <sub>**On metric learning for audio-text cross-modal retrieval**</sub> | <sub>Metric learning objectives for audio retrieval</sub> |  | <sub> 16.9 </sub> |<sub>[mei2022](https://arxiv.org/pdf/2203.15537.pdf)</sub> | <a href=" https://github.com/XinhaoMei/audio-text_retrieval">:scroll:</a> |
-| <sub>**Audio Retrieval with Natural Language Queries: A Benchmark Study**</sub> | <sub>MoE, CE and MMT used</sub> |  | <sub> 7.2 </sub> |<sub>[koepke2022](https://arxiv.org/pdf/2203.15537.pdf)</sub> | <a href=" https://github.com/akoepke/audio-retrieval-benchmark">:scroll:</a> |
+| <sub>**Audio Retrieval with Natural Language Queries: A Benchmark Study**</sub> | <sub>MoE, CE and MMT used</sub> |  | <sub> 7.2 </sub> |<sub>[koepke2022](https://arxiv.org/pdf/2112.09418.pdf)</sub> | <a href=" https://github.com/akoepke/audio-retrieval-benchmark">:scroll:</a> |
+
+## Music Classification
+
+### GTZAN Genres
+| <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
+| :--- | :--- | :--- | :--- | :--- |
+| <sub>**CLAP: Learning Audio Concepts From Natural Language Supervision**</sub> | <sub>CNN model pretrained by natural language supervision</sub> | <sub>91.3%</sub> | <sub>[elizalde2022](https://arxiv.org/pdf/2206.04769.pdf)</sub> | <a href="https://github.com/microsoft/CLAP">:scroll:</a> |
+| <sub>**PaSST: Efficient Training of Audio Transformers with Patchout**</sub> | <sub>drops out some of the input patches during training of AST [[HEAR Challenge]](https://hearbenchmark.com/hear-leaderboard.html)</sub> | <sub>88.3%</sub> | <sub>[koutini22](https://arxiv.org/pdf/2110.05069.pdf)</sub> | <a href="https://github.com/kkoutini/PaSST">:scroll:</a> |
+| <sub>**PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition**</sub> | <sub>CNN models trained on AudioSet [[HEAR Challenge]](https://hearbenchmark.com/hear-leaderboard.html)</sub> | <sub>86.0%</sub> | <sub>[kong2019](https://arxiv.org/pdf/1912.10211.pdf)</sub> | <a href="https://github.com/qiuqiangkong/audioset_tagging_cnn">:scroll:</a> |
+| <sub>**Wav2CLIP: Learning Robust Audio Representations From CLIP**</sub> | <sub>Distilling from CLIP [[HEAR Challenge]](https://hearbenchmark.com/hear-leaderboard.html)</sub> | <sub>74.8%</sub> | <sub>[wu2021](https://arxiv.org/pdf/2110.11499.pdf)</sub> | <a href="https://github.com/descriptinc/lyrebird-wav2clip">:scroll:</a> |
+
+### GTZAN Music Speech
+| <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
+| :--- | :--- | :--- | :--- | :--- |
+| <sub>**CLAP: Learning Audio Concepts From Natural Language Supervision**</sub> | <sub>CNN model pretrained by natural language supervision</sub> | <sub>100%</sub> | <sub>[elizalde2022](https://arxiv.org/pdf/2206.04769.pdf)</sub> | <a href="https://github.com/microsoft/CLAP">:scroll:</a> |
+| <sub>**PANNs: Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition**</sub> | <sub>CNN models trained on AudioSet [[HEAR Challenge]](https://hearbenchmark.com/hear-leaderboard.html)</sub> | <sub>99.23%</sub> | <sub>[kong2019](https://arxiv.org/pdf/1912.10211.pdf)</sub> | <a href="https://github.com/qiuqiangkong/audioset_tagging_cnn">:scroll:</a> |
+| <sub>**PaSST: Efficient Training of Audio Transformers with Patchout**</sub> | <sub>drops out some of the input patches during training of AST [[HEAR Challenge]](https://hearbenchmark.com/hear-leaderboard.html)</sub> | <sub>97.69%</sub> | <sub>[koutini22](https://arxiv.org/pdf/2110.05069.pdf)</sub> | <a href="https://github.com/kkoutini/PaSST">:scroll:</a> |
+| <sub>**Wav2CLIP: Learning Robust Audio Representations From CLIP**</sub> | <sub>Distilling from CLIP [[HEAR Challenge]](https://hearbenchmark.com/hear-leaderboard.html)</sub> | <sub>94.55%</sub> | <sub>[wu2021](https://arxiv.org/pdf/2110.11499.pdf)</sub> | <a href="https://github.com/descriptinc/lyrebird-wav2clip">:scroll:</a> |
+
 
 ## Glossary
 SED: Sound Event Detection <br>
